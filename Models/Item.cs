@@ -4,7 +4,7 @@ namespace ElasticSearch.Models;
 
 public class Item
 {
-    public Guid Id { get; set; }
+    public string Id { get; set; }
 
     [MaxLength(100)]
     public string Title { get; set; } = string.Empty;
